@@ -29,5 +29,5 @@
   <!--End-Login-->
 
 
-
+@include('backEnd.layoutes.footer')
 @endsection

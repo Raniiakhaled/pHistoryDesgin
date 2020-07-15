@@ -9,9 +9,9 @@
 		<div class="alert alert-danger">{{$error}}</div>
 	@endforeach
         <div class="col-6 mt-5 pt-5 pb-5 mb-5 ml-auto mr-auto">
-			<form action="{{route('post_hosptail_confirm_password',$hosptail->id)}}" method="POST">
+			<form action="{{route('post_pharmacy_confirm_password',$pharmacy->id)}}" method="POST">
 				{{ csrf_field() }}
-				<input type="hidden" name="hosptail_id" value="{{$hosptail->id}}">
+				<input type="hidden" name="pharmacy_id" value="{{$pharmacy->id}}">
 				<div class="form-group">
 					<label class="h6 font-weight-bold">New Password</label>
 					<input type="password" name="new_password" class="form-control">
@@ -29,6 +29,4 @@
 </div>
 
 @include('backEnd.layoutes.footer')
-
 @stop
-

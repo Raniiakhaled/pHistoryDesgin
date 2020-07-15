@@ -52,5 +52,5 @@
 
 
 
-
+@include('backEnd.layoutes.footer')
 @endsection

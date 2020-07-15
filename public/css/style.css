@@ -874,7 +874,12 @@
     background-color: #fde4ea;
     border-radius: 15px;
   }
-
+  .tab-smoking {
+    padding: 10px;
+    background-color:  #fff7cd;
+    border-radius: 15px;
+  }
+  #ffd600
   .pills-main {
     background-color: white;
     border: 1px solid #a3a3a3;
@@ -1562,4 +1567,47 @@ select.ui.dropdown {
   background-size: cover; 
   background-position: center top;
   border-radius: 10px;
+}
+/* ===================== FILE INPUT ===================== */
+.file-area {
+  width: 100%;
+  position: relative;
+}
+.file-area input[type=file] {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  opacity: 0;
+  cursor: pointer;
+}
+.file-area .file-dummy {
+  padding: 10px;
+  background: #e8f7fe;
+  border: 2px dashed #0478bd;
+  text-align: center;
+  transition: background 0.3s ease-in-out;
+}
+.file-area .file-dummy .success {
+  display: none;
+}
+.file-area:hover .file-dummy {
+  background: rgba(255, 255, 255, 0.1);
+}
+.file-area input[type=file]:focus + .file-dummy {
+  outline: 2px solid rgba(255, 255, 255, 0.5);
+  outline: -webkit-focus-ring-color auto 5px;
+}
+.file-area input[type=file]:valid + .file-dummy {
+  border-color:#Fcf6f6;
+  background-color: #2bae66;
+}
+.file-area input[type=file]:valid + .file-dummy .success {
+  display: inline-block;
+}
+.file-area input[type=file]:valid + .file-dummy .default {
+  display: none;
 }

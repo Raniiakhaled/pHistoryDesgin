@@ -614,18 +614,38 @@
                                             </div>
                                             <hr />
                                         </div>
-                                        <hr class="my-4" />
-                                        <div class="col-md-8 mb-3 mt-3">
-                                            <label class="title-info">Adding pescrption</label>
-                                            <input type="file" name="rocata_file" class="form-control">
+                                        <div class="col-md-12 mt-5 mb-3">
+                                            <div class="row form-group">
+                                                <label class="col-4 title-info mb-auto mt-auto">Adding Rays</label>
+                                                <div class="col-6 form-group file-area">
+                                                    <input type="file" name="rays_file" id="images" class="form-control" required="required" multiple="multiple"/>
+                                                    <div class="file-dummy">
+                                                    <div class="success h6 text-white font-weight-bold"><i class="fa fa-file mr-2" aria-hidden="true"></i> Great, your files are selected. Keep on.</div>
+                                                    <div class="default font-weight-bold h6"><i class="fa fa-upload mr-2" aria-hidden="true"></i> Please select some files</div>
+                                                </div>
+                                            </div>
+                                            </div>
+                                            <div class="row form-group">
+                                                <label class="col-4 title-info mb-auto mt-auto">Adding Rays</label>
+                                                <div class="col-6 form-group file-area">
+                                                    <input type="file" name="rays_file" id="images" class="form-control" required="required" multiple="multiple"/>
+                                                    <div class="file-dummy">
+                                                    <div class="success h6 text-white font-weight-bold"><i class="fa fa-file mr-2" aria-hidden="true"></i> Great, your files are selected. Keep on.</div>
+                                                    <div class="default font-weight-bold h6"><i class="fa fa-upload mr-2" aria-hidden="true"></i> Please select some files</div>
+                                                </div>
+                                            </div>
+                                            </div>
+                                            <div class="row form-group">
+                                                <label class="col-4 title-info mb-auto mt-auto">Adding Test</label>
+                                                <div class="col-6 form-group file-area">
+                                                    <input type="file" name="analzes_file" id="images" class="form-control" required="required" multiple="multiple"/>
+                                                    <div class="file-dummy">
+                                                    <div class="success h6 text-white font-weight-bold"><i class="fa fa-file mr-2" aria-hidden="true"></i> Great, your files are selected. Keep on.</div>
+                                                    <div class="default font-weight-bold h6"><i class="fa fa-upload mr-2" aria-hidden="true"></i> Please select some files</div>
+                                                </div>
+                                            </div>
                                         </div>
-                                        <div class="col-md-8 mb-3">
-                                            <label class="title-info">Adding Rays</label>
-                                            <input type="file" name="rays_file" class="form-control">
-                                        </div>
-                                        <div class="col-md-8 mb-3">
-                                            <label class="title-info">Adding Test</label>
-                                            <input type="file" name="analzes_file" class="form-control">
+                                        <hr class="my-4 mt-5" />
                                         </div>
                                         <div class="col-md-12 mt-5">
                                             <label class="title-info">Preventative Screening</label>
@@ -677,55 +697,55 @@
                                             </div>
                                             <hr class="my-4 mt-5 mb-5" />
                                         </div>
-                                        <hr class="my-4" />
                                         <div class="col-12">
-                                        
-                                            <div class="nav flex-row nav-pills row offset-xl-1 col-12" id="v-pills-tab" role="tablist" aria-orientation="horizontal">
-                                                <a class="nav-link col-xl-2 col-md-2 col-4 p-2 mr-1 active" id="v-pills-1-tab" data-toggle="pill" href="#v-pills-1" role="tab" aria-controls="v-pills-1" aria-selected="true">
-                                                    <div class="row">
-                                                        <h4 class="text-pills m-auto" style="font-size: 11pt;padding-top:3px;">Alcohol</h4>
+                                            <div class="nav flex-row nav-pills row col-12" id="v-pills-tab" role="tablist" aria-orientation="horizontal">
+                                                <a class="nav-link col-xl-3 col-md-2 col-4 active" id="v-pills-1-tab" data-toggle="pill" href="#v-pills-1" role="tab" aria-controls="v-pills-1" aria-selected="true">
+                                                    <div class="text-center">
+                                                        <img src="{{url('imgs/alcohol.png')}}" width="100">
+                                                        <h4 class="text-pills m-auto" style="font-size: 12pt;padding-top:15px;">Alcohol</h4>
                                                     </div>
                                                 </a>
-                                                <a class="nav-link col-xl-2 col-md-2 col-4 p-2 mr-1" id="v-pills-2-tab" data-toggle="pill" href="#v-pills-2" role="tab" aria-controls="v-pills-2" aria-selected="true">
-                                                    <div class="row">
-                                                        <h4 class="text-pills m-auto" style="font-size: 11pt;padding-top:3px;">Cigarettes</h4>
+                                                <a class="nav-link col-xl-3 col-md-2 col-4" id="v-pills-2-tab" data-toggle="pill" href="#v-pills-2" role="tab" aria-controls="v-pills-2" aria-selected="true">
+                                                    <div class="text-center">
+                                                        <img src="{{url('imgs/Cigarettes.png')}}" width="100">
+                                                        <h4 class="text-pills m-auto" style="font-size: 12pt;padding-top:15px;">Cigarettes</h4>
                                                     </div>
                                                 </a>
-                                                <a class="nav-link col-xl-2 col-md-2 col-4 p-2 mr-1" id="v-pills-3-tab" data-toggle="pill" href="#v-pills-3" role="tab" aria-controls="v-pills-3" aria-selected="true">
-                                                    <div class="row">
-                                                        <h4 class="text-pills m-auto" style="font-size: 11pt;padding-top:3px;">Tobacco</h4>
+                                                <a class="nav-link col-xl-3 col-md-2 col-4" id="v-pills-3-tab" data-toggle="pill" href="#v-pills-3" role="tab" aria-controls="v-pills-3" aria-selected="true">
+                                                    <div class="text-center">
+                                                        <img src="{{url('imgs/Tobacco.png')}}" width="100">
+                                                        <h4 class="text-pills m-auto" style="font-size: 12pt;padding-top:15px;">Tobacco</h4>
                                                     </div>
                                                 </a>
-                                                <a class="nav-link col-xl-2 col-md-2 col-4 p-2 mr-1" id="v-pills-4-tab" data-toggle="pill" href="#v-pills-4" role="tab" aria-controls="v-pills-4" aria-selected="true">
-                                                    <div class="row">
-                                                        <h4 class="text-pills m-auto" style="font-size: 11pt;padding-top:3px;">Drug</h4>
+                                                <a class="nav-link col-xl-3 col-md-2 col-4" id="v-pills-4-tab" data-toggle="pill" href="#v-pills-4" role="tab" aria-controls="v-pills-4" aria-selected="true">
+                                                    <div class="text-center">
+                                                        <img src="{{url('imgs/drug.png')}}" width="100">
+                                                        <h4 class="text-pills m-auto" style="font-size: 12pt;padding-top:15px;">Drug</h4>
                                                     </div>
                                                 </a>
                                             </div> 
                                             <div class="col-md-12 p-4 align-items-center js-fullheight animated">
-                                                <div class="tab-content mr-auto ml-auto" id="v-pills-tabContent">
+                                                <div class="tab-content tab-family-1 mr-auto ml-auto" id="v-pills-tabContent">
                                                     <div class="tab-pane animated bounce slow py-0 show active" id="v-pills-1" role="tabpanel" aria-labelledby="v-pills-1-tab">
                                                         <div class="row mb-3 mt-3">
                                                             <div class="col-xl-9 mb-4 mr-auto ml-auto">
+                                                                <div class="ui form col-12">
                                                                     <div class="inline field">
                                                                         <label class="h6 font-weight-bold" style="font-size: 14pt; margin-bottom:20px;">Alcohol</label>
-                                                                        <div class="col-6">
-                                                                        <select name="alcohol_type" class="row col-6 label ui large selection fluid dropdown mb-4">
+                                                                        <select name="alcohol_type" class="label ui large selection fluid dropdown mb-4">
                                                                             <option value="0">Type of Alcohol</option>
                                                                             <option value="beer">Beer</option>
                                                                             <option value="wine">Wine</option>
                                                                             <option value="liquor">liquor</option>
                                                                         </select>
-                                                                        </div>
-                                                                        <div class="col-6">
-                                                                            <select name="alcohol_severity" class="row col-6 label ui large selection fluid dropdown">
-                                                                                <option value="0">Severity</option>
-                                                                                <option value="high">High</option>
-                                                                                <option value="middle">Middle</option>
-                                                                                <option value="low">Low</option>
-                                                                            </select>
-                                                                        </div>
+                                                                        <select name="alcohol_severity" class="label ui large selection fluid dropdown">
+                                                                            <option value="0">Severity</option>
+                                                                            <option value="high">High</option>
+                                                                            <option value="middle">Middle</option>
+                                                                            <option value="low">Low</option>
+                                                                        </select>
                                                                     </div>
+                                                                </div>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -783,375 +803,373 @@
                                                 </div>
                                             </div>
                                         </div>
-                                    </div>
-                                </div>
-                                <!-- Family History -->
-                                <hr class="my-4" />
-                                <h3 class="title-sub text-uppercase text-muted mb-4">Family History</h3>
-                                <div class="pl-lg-4">
-                                <h4 class="text-primary ml-5 mt-3 mb-5 font-weight-bold">Family Diseases</h4>
-                                    <div class="col-12">
-                                        <div class="nav flex-row nav-pills row ml-auto mr-auto" id="v-pills-tab" role="tablist" aria-orientation="horizontal">
-                                            <a class="nav-link col-xl-3 col-md-2 col-4 active" id="v-pills-5-tab" data-toggle="pill" href="#v-pills-5" role="tab" aria-controls="v-pills-5" aria-selected="true">
-                                                <div class="text-center">
-                                                    <img src="{{url('imgs/mother.png')}}" width="100">
-                                                    <h4 class="text-pills m-auto" style="font-size:12pt;padding-top:15px;">Mother</h4>
-                                                </div>
-                                            </a>
-                                            <a class="nav-link col-xl-3 col-md-2 col-4" id="v-pills-6-tab" data-toggle="pill" href="#v-pills-6" role="tab" aria-controls="v-pills-6" aria-selected="true">
-                                                <div class="text-center">
-                                                    <img src="{{url('imgs/father.png')}}" width="100">
-                                                    <h4 class="text-pills m-auto" style="font-size: 12pt;padding-top:15px;">Father</h4>
-                                                </div>
-                                            </a>
-                                            <a class="nav-link col-xl-3 col-md-2 col-4" id="v-pills-7-tab" data-toggle="pill" href="#v-pills-7" role="tab" aria-controls="v-pills-7" aria-selected="true">
-                                                <div class="text-center">
-                                                    <img src="{{url('imgs/sis.png')}}" width="100">
-                                                    <h4 class="text-pills m-auto" style="font-size: 12pt;padding-top:15px;">Sister</h4>
-                                                </div>
-                                            </a>
-                                            <a class="nav-link col-xl-3 col-md-2 col-4" id="v-pills-8-tab" data-toggle="pill" href="#v-pills-8" role="tab" aria-controls="v-pills-8" aria-selected="true">
-                                                <div class="text-center">
-                                                    <img src="{{url('imgs/bro.png')}}" width="100">
-                                                    <h4 class="text-pills m-auto" style="font-size:12pt;padding-top:15px;">Brother</h4>
-                                                </div>
-                                            </a>
-                                        </div>
-                                        <div class="col-md-12 p-4 align-items-center js-fullheight animated">
-                                            <div class="tab-content tab-family-1 mr-auto ml-auto" id="v-pills-tabContent">
-                                                <div class="tab-pane animated bounce slow py-0 show active" id="v-pills-5" role="tabpanel" aria-labelledby="v-pills-5-tab">
-                                                    <div class="row mb-5 mt-3 ">
-                                                        <div class="col-xl-9 mb-3 mr-auto ml-auto">
-                                                            <div class="ui form col-12">
-                                                                <div class="inline field">
-                                                                    <label class="h6 font-weight-bold" style="font-size: 14pt; margin-bottom:20px;">Mother Diseases</label>
-                                                                    <select name="mother[]" multiple="" class="label ui large selection fluid dropdown">
-                                                                        <option value="">Choose</option>
-                                                                        <option value="high-Blood-Pressure">High Blood Pressure</option>
-                                                                        <option value="diabetes">Diabetes</option>
-                                                                        <option value="cancer">Cancer (Past or Present)</option>
-                                                                    </select>
+                                        <div class="col-12">
+                                            <!-- Family History -->
+                                            <hr class="my-4" />
+                                            <h3 class="title-sub text-uppercase text-muted mb-4">Family History</h3>
+                                            <div class="pl-lg-4">
+                                                <h4 class="text-primary ml-5 mt-3 mb-5 font-weight-bold">Family Diseases</h4>
+                                                <div class="col-12">
+                                                    <div class="nav flex-row nav-pills row ml-auto mr-auto" id="v-pills-tab" role="tablist" aria-orientation="horizontal">
+                                                        <a class="nav-link col-xl-3 col-md-2 col-4 active" id="v-pills-5-tab" data-toggle="pill" href="#v-pills-5" role="tab" aria-controls="v-pills-5" aria-selected="true">
+                                                            <div class="text-center">
+                                                                <img src="{{url('imgs/mother.png')}}" width="100">
+                                                                <h4 class="text-pills m-auto" style="font-size:12pt;padding-top:15px;">Mother</h4>
+                                                            </div>
+                                                        </a>
+                                                        <a class="nav-link col-xl-3 col-md-2 col-4" id="v-pills-6-tab" data-toggle="pill" href="#v-pills-6" role="tab" aria-controls="v-pills-6" aria-selected="true">
+                                                            <div class="text-center">
+                                                                <img src="{{url('imgs/father.png')}}" width="100">
+                                                                <h4 class="text-pills m-auto" style="font-size: 12pt;padding-top:15px;">Father</h4>
+                                                            </div>
+                                                        </a>
+                                                        <a class="nav-link col-xl-3 col-md-2 col-4" id="v-pills-7-tab" data-toggle="pill" href="#v-pills-7" role="tab" aria-controls="v-pills-7" aria-selected="true">
+                                                            <div class="text-center">
+                                                                <img src="{{url('imgs/sis.png')}}" width="100">
+                                                                <h4 class="text-pills m-auto" style="font-size: 12pt;padding-top:15px;">Sister</h4>
+                                                            </div>
+                                                        </a>
+                                                        <a class="nav-link col-xl-3 col-md-2 col-4" id="v-pills-8-tab" data-toggle="pill" href="#v-pills-8" role="tab" aria-controls="v-pills-8" aria-selected="true">
+                                                            <div class="text-center">
+                                                                <img src="{{url('imgs/bro.png')}}" width="100">
+                                                                <h4 class="text-pills m-auto" style="font-size:12pt;padding-top:15px;">Brother</h4>
+                                                            </div>
+                                                        </a>
+                                                    </div>
+                                                    <div class="col-md-12 p-4 align-items-center js-fullheight animated">
+                                                        <div class="tab-content tab-family-1 mr-auto ml-auto" id="v-pills-tabContent">
+                                                            <div class="tab-pane animated bounce slow py-0 show active" id="v-pills-5" role="tabpanel" aria-labelledby="v-pills-5-tab">
+                                                                <div class="row mb-5 mt-3 ">
+                                                                    <div class="col-xl-9 mb-3 mr-auto ml-auto">
+                                                                        <div class="ui form col-12">
+                                                                            <div class="inline field">
+                                                                                <label class="h6 font-weight-bold" style="font-size: 14pt; margin-bottom:20px;">Mother Diseases</label>
+                                                                                <select name="mother[]" multiple="" class="label ui large selection fluid dropdown">
+                                                                                    <option value="">Choose</option>
+                                                                                    <option value="high-Blood-Pressure">High Blood Pressure</option>
+                                                                                    <option value="diabetes">Diabetes</option>
+                                                                                    <option value="cancer">Cancer (Past or Present)</option>
+                                                                                </select>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="col-xl-9 col-md-4 mb-3 mr-auto ml-auto">
+                                                                        <div class="ui input col-12">
+                                                                            <input name="other_mother" type="text" placeholder="Other Diseases">
+                                                                        </div>
+                                                                    </div>
                                                                 </div>
                                                             </div>
-                                                        </div>
-                                                        <div class="col-xl-9 col-md-4 mb-3 mr-auto ml-auto">
-                                                            <div class="ui input col-12">
-                                                                <input name="other_mother" type="text" placeholder="Other Diseases">
+                                                            <div class="tab-pane animated bounce slow py-0 show" id="v-pills-6" role="tabpanel" aria-labelledby="v-pills-6-tab">
+                                                                <div class="row mb-5 mt-3">
+                                                                    <div class="col-xl-9 mb-3 mr-auto ml-auto">
+                                                                        <div class="ui form col-12">
+                                                                            <div class="inline field">
+                                                                                <label class="h6 font-weight-bold" style="font-size: 14pt; margin-bottom:20px;">Father Diseases</label>
+                                                                                <select name="father[]" multiple="" class="label ui large selection fluid dropdown">
+                                                                                    <option value="">Choose</option>
+                                                                                    <option value="high-Blood-Pressure">High Blood Pressure</option>
+                                                                                    <option value="diabetes">Diabetes</option>
+                                                                                    <option value="cancer">Cancer (Past or Present)</option>
+                                                                                </select>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="col-xl-9 col-md-4 mb-3 mr-auto ml-auto">
+                                                                        <div class="ui input col-12">
+                                                                            <input name="other_father" type="text" placeholder="Other Diseases">
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="tab-pane animated bounce slow py-0 show" id="v-pills-7" role="tabpanel" aria-labelledby="v-pills-7-tab">
+                                                                <div class="row mb-5 mt-3">
+                                                                    <div class="col-xl-9 mb-4 mr-auto ml-auto">
+                                                                        <div class="ui form col-12">
+                                                                            <div class="inline field">
+                                                                                <label class="h6 font-weight-bold" style="font-size: 14pt; margin-bottom:20px;">Sister Diseases</label>
+                                                                                <select name="sister[]" multiple="" class="label ui large selection fluid dropdown">
+                                                                                <option value="">Choose</option>
+                                                                                    <option value="high-Blood-Pressure">High Blood Pressure</option>
+                                                                                    <option value="diabetes">Diabetes</option>
+                                                                                    <option value="cancer">Cancer (Past or Present)</option>
+                                                                                </select>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="col-xl-9 col-md-4 mb-3 mr-auto ml-auto">
+                                                                        <div class="ui input col-12">
+                                                                            <input name="other_sister" type="text" placeholder="Other Diseases">
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="tab-pane animated bounce slow py-0 show" id="v-pills-8" role="tabpanel" aria-labelledby="v-pills-8-tab">
+                                                                <div class="row mb-5 mt-3">
+                                                                    <div class="col-xl-9 mb-4 mr-auto ml-auto">
+                                                                        <div class="ui form col-12">
+                                                                            <div class="inline field">
+                                                                                <label class="h2 font-weight-700" style="font-size: 14pt; margin-bottom:20px;">Brother Diseases</label>
+                                                                                <select name="brother[]" multiple="" class="label ui large selection fluid dropdown">
+                                                                                    <option value="">Choose</option>
+                                                                                    <option value="high-Blood-Pressure">High Blood Pressure</option>
+                                                                                    <option value="diabetes">Diabetes</option>
+                                                                                    <option value="cancer">Cancer (Past or Present)</option>
+                                                                                </select>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="col-xl-9 col-md-4 mb-3 mr-auto ml-auto">
+                                                                        <div class="ui input col-12">
+                                                                            <input name="other_brother" type="text" placeholder="Other Diseases">
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
                                                             </div>
                                                         </div>
                                                     </div>
                                                 </div>
-                                                <div class="tab-pane animated bounce slow py-0 show" id="v-pills-6" role="tabpanel" aria-labelledby="v-pills-6-tab">
-                                                    <div class="row mb-5 mt-3">
-                                                        <div class="col-xl-9 mb-3 mr-auto ml-auto">
-                                                            <div class="ui form col-12">
-                                                                <div class="inline field">
-                                                                    <label class="h6 font-weight-bold" style="font-size: 14pt; margin-bottom:20px;">Father Diseases</label>
-                                                                    <select name="father[]" multiple="" class="label ui large selection fluid dropdown">
-                                                                        <option value="">Choose</option>
-                                                                        <option value="high-Blood-Pressure">High Blood Pressure</option>
-                                                                        <option value="diabetes">Diabetes</option>
-                                                                        <option value="cancer">Cancer (Past or Present)</option>
-                                                                    </select>
-                                                                </div>
+                                                <div class="col-12">
+                                                    <div class="nav flex-row nav-pills roW col-12 mt-3" id="v-pills-tab" role="tablist" aria-orientation="horizontal">
+                                                        <a class="nav-link col-xl-3 col-md-2 col-4 active" id="v-pills-9-tab" data-toggle="pill" href="#v-pills-9" role="tab" aria-controls="v-pills-5" aria-selected="true">
+                                                            <div class="text-center">
+                                                                <img src="{{url('imgs/grandma.png')}}" width="100">
+                                                                <h4 class="text-pills m-auto" style="font-size:12pt;padding-top:15px;">Grandma M</h4>
                                                             </div>
-                                                        </div>
-                                                        <div class="col-xl-9 col-md-4 mb-3 mr-auto ml-auto">
-                                                            <div class="ui input col-12">
-                                                                <input name="other_father" type="text" placeholder="Other Diseases">
+                                                        </a>
+                                                        <a class="nav-link col-xl-3 col-md-2 col-4" id="v-pills-10-tab" data-toggle="pill" href="#v-pills-10" role="tab" aria-controls="v-pills-10" aria-selected="true">
+                                                            <div class="text-center">
+                                                                <img src="{{url('imgs/grandma.png')}}" width="100">
+                                                                <h4 class="text-pills m-auto" style="font-size:12pt;padding-top:15px;">Grandma F</h4>
                                                             </div>
-                                                        </div>
+                                                        </a>
+                                                        <a class="nav-link col-xl-3 col-md-2 col-4" id="v-pills-11-tab" data-toggle="pill" href="#v-pills-11" role="tab" aria-controls="v-pills-11" aria-selected="true">
+                                                            <div class="text-center">
+                                                                <img src="{{url('imgs/grandpa.png')}}" width="100">
+                                                                <h4 class="text-pills m-auto" style="font-size:12pt;padding-top:15px;">Grandpa M</h4>
+                                                            </div>
+                                                        </a>
+                                                        <a class="nav-link col-xl-3 col-md-2 col-4" id="v-pills-12-tab" data-toggle="pill" href="#v-pills-12" role="tab" aria-controls="v-pills-12" aria-selected="true">
+                                                            <div class="text-center">
+                                                                <img src="{{url('imgs/grandpa.png')}}" width="100">
+                                                                <h4 class="text-pills m-auto"  style="font-size:12pt;padding-top:15px;">Grandpa F</h4>
+                                                            </div>
+                                                        </a>
                                                     </div>
-                                                </div>
-                                                <div class="tab-pane animated bounce slow py-0 show" id="v-pills-7" role="tabpanel" aria-labelledby="v-pills-7-tab">
-                                                    <div class="row mb-5 mt-3">
-                                                        <div class="col-xl-9 mb-4 mr-auto ml-auto">
-                                                            <div class="ui form col-12">
-                                                                <div class="inline field">
-                                                                    <label class="h6 font-weight-bold" style="font-size: 14pt; margin-bottom:20px;">Sister Diseases</label>
-                                                                    <select name="sister[]" multiple="" class="label ui large selection fluid dropdown">
-                                                                    <option value="">Choose</option>
-                                                                        <option value="high-Blood-Pressure">High Blood Pressure</option>
-                                                                        <option value="diabetes">Diabetes</option>
-                                                                        <option value="cancer">Cancer (Past or Present)</option>
-                                                                    </select>
+                                                    <div class="col-md-12 p-4 align-items-center js-fullheight animated">
+                                                        <div class="tab-content tab-family-1 mr-auto ml-auto" id="v-pills-tabContent">
+                                                            <div class="tab-pane animated bounce slow py-0 show active" id="v-pills-9" role="tabpanel" aria-labelledby="v-pills-9-tab">
+                                                                <div class="row mb-5 mt-3">
+                                                                    <div class="col-xl-9 mb-4 mr-auto ml-auto">
+                                                                        <div class="ui form col-12">
+                                                                            <div class="inline field">
+                                                                                <label class="h6 font-weight-bold" style="font-size: 14pt; margin-bottom:20px;">Grandma M Diseases</label>
+                                                                                <select name="grnadmaM[]" multiple="" class="label ui large selection fluid dropdown">
+                                                                                    <option value="">Choose</option>
+                                                                                    <option value="high-Blood-Pressure">High Blood Pressure</option>
+                                                                                    <option value="diabetes">Diabetes</option>
+                                                                                    <option value="cancer">Cancer (Past or Present)</option>
+                                                                                </select>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="col-xl-9 col-md-4 mb-3 mr-auto ml-auto">
+                                                                        <div class="ui input col-12">
+                                                                            <input type="text" placeholder="Other Diseases" name="other_grnadmaM">
+                                                                        </div>
+                                                                    </div>
                                                                 </div>
                                                             </div>
-                                                        </div>
-                                                        <div class="col-xl-9 col-md-4 mb-3 mr-auto ml-auto">
-                                                            <div class="ui input col-12">
-                                                                <input name="other_sister" type="text" placeholder="Other Diseases">
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div class="tab-pane animated bounce slow py-0 show" id="v-pills-8" role="tabpanel" aria-labelledby="v-pills-8-tab">
-                                                    <div class="row mb-5 mt-3">
-                                                        <div class="col-xl-9 mb-4 mr-auto ml-auto">
-                                                            <div class="ui form col-12">
-                                                                <div class="inline field">
-                                                                    <label class="h2 font-weight-700" style="font-size: 14pt; margin-bottom:20px;">Brother Diseases</label>
-                                                                    <select name="brother[]" multiple="" class="label ui large selection fluid dropdown">
-                                                                        <option value="">Choose</option>
-                                                                        <option value="high-Blood-Pressure">High Blood Pressure</option>
-                                                                        <option value="diabetes">Diabetes</option>
-                                                                        <option value="cancer">Cancer (Past or Present)</option>
-                                                                    </select>
+                                                            <div class="tab-pane animated bounce slow py-0 show" id="v-pills-10" role="tabpanel" aria-labelledby="v-pills-10-tab">
+                                                                <div class="row mb-5 mt-3">
+                                                                    <div class="col-xl-9 mb-4 mr-auto ml-auto">
+                                                                        <div class="ui form col-12">
+                                                                            <div class="inline field">
+                                                                                <label class="h6 font-weight-bold" style="font-size: 14pt; margin-bottom:20px;">Grandma F Diseases</label>
+                                                                                <select name="grnadmaF[]" multiple="" class="label ui large selection fluid dropdown">
+                                                                                    <option value="">Choose</option>
+                                                                                    <option value="high-Blood-Pressure">High Blood Pressure</option>
+                                                                                    <option value="diabetes">Diabetes</option>
+                                                                                    <option value="cancer">Cancer (Past or Present)</option>
+                                                                                </select>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="col-xl-9 col-md-4 mb-3 mr-auto ml-auto">
+                                                                        <div class="ui input col-12">
+                                                                            <input type="text" placeholder="Other Diseases" name="other_grandmaF">
+                                                                        </div>
+                                                                    </div>
                                                                 </div>
                                                             </div>
-                                                        </div>
-                                                        <div class="col-xl-9 col-md-4 mb-3 mr-auto ml-auto">
-                                                            <div class="ui input col-12">
-                                                                <input name="other_brother" type="text" placeholder="Other Diseases">
+                                                            <div class="tab-pane animated bounce slow py-0 show" id="v-pills-11" role="tabpanel" aria-labelledby="v-pills-11-tab">
+                                                                <div class="row mb-5 mt-3">
+                                                                    <div class="col-xl-9 mb-4 mr-auto ml-auto">
+                                                                        <div class="ui form col-12">
+                                                                            <div class="inline field">
+                                                                                <label class="h2 font-weight-700" style="font-size: 12pt; margin-bottom: 8px;">Granadpa M Diseases</label>
+                                                                                <select name="grnadpaM[]" multiple="" class="label ui large selection fluid dropdown">
+                                                                                    <option value="">Choose</option>
+                                                                                    <option value="high-Blood-Pressure">High Blood Pressure</option>
+                                                                                    <option value="diabetes">Diabetes</option>
+                                                                                    <option value="cancer">Cancer (Past or Present)</option>
+                                                                                </select>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="col-xl-9 col-md-4 mb-3 mr-auto ml-auto">
+                                                                        <div class="ui input col-12">
+                                                                            <input type="text" placeholder="Other Diseases" name="other_grnadpaM">
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="tab-pane animated bounce slow py-0 show" id="v-pills-12" role="tabpanel" aria-labelledby="v-pills-12-tab">
+                                                                <div class="row mb-5 mt-3">
+                                                                    <div class="col-xl-9 mb-4 mr-auto ml-auto">
+                                                                        <div class="ui form col-12">
+                                                                            <div class="inline field">
+                                                                                <label class="h6 font-weight-bold" style="font-size: 14pt; margin-bottom:20px;">Granadpa F Diseases</label>
+                                                                                <select name="grnadpaF[]" multiple="" class="label ui large selection fluid dropdown">
+                                                                                    <option value="">Choose</option>
+                                                                                    <option value="high-Blood-Pressure">High Blood Pressure</option>
+                                                                                    <option value="diabetes">Diabetes</option>
+                                                                                    <option value="cancer">Cancer (Past or Present)</option>
+                                                                                </select>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="col-xl-9 col-md-4 mb-3 mr-auto ml-auto">
+                                                                        <div class="ui input col-12">
+                                                                            <input type="text" placeholder="Other Diseases" name="other_grnadpaF">
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
                                                             </div>
                                                         </div>
                                                     </div>
                                                 </div>
                                             </div>
                                         </div>
-                                    </div>
-                                    <div class="col-12">
-                                        <div class="nav flex-row nav-pills roW col-12 mt-3" id="v-pills-tab" role="tablist" aria-orientation="horizontal">
-                                            <a class="nav-link col-xl-3 col-md-2 col-4 active" id="v-pills-9-tab" data-toggle="pill" href="#v-pills-9" role="tab" aria-controls="v-pills-5" aria-selected="true">
-                                                <div class="text-center">
-                                                    <img src="{{url('imgs/grandma.png')}}" width="100">
-                                                    <h4 class="text-pills m-auto" style="font-size:12pt;padding-top:15px;">Grandma M</h4>
-                                                </div>
-                                            </a>
-                                            <a class="nav-link col-xl-3 col-md-2 col-4" id="v-pills-10-tab" data-toggle="pill" href="#v-pills-10" role="tab" aria-controls="v-pills-10" aria-selected="true">
-                                                <div class="text-center">
-                                                    <img src="{{url('imgs/grandma.png')}}" width="100">
-                                                    <h4 class="text-pills m-auto" style="font-size:12pt;padding-top:15px;">Grandma F</h4>
-                                                </div>
-                                            </a>
-                                            <a class="nav-link col-xl-3 col-md-2 col-4" id="v-pills-11-tab" data-toggle="pill" href="#v-pills-11" role="tab" aria-controls="v-pills-11" aria-selected="true">
-                                                <div class="text-center">
-                                                    <img src="{{url('imgs/grandpa.png')}}" width="100">
-                                                    <h4 class="text-pills m-auto" style="font-size:12pt;padding-top:15px;">Grandpa M</h4>
-                                                </div>
-                                            </a>
-                                            <a class="nav-link col-xl-3 col-md-2 col-4" id="v-pills-12-tab" data-toggle="pill" href="#v-pills-12" role="tab" aria-controls="v-pills-12" aria-selected="true">
-                                                <div class="text-center">
-                                                    <img src="{{url('imgs/grandpa.png')}}" width="100">
-                                                    <h4 class="text-pills m-auto"  style="font-size:12pt;padding-top:15px;">Grandpa F</h4>
-                                                </div>
-                                            </a>
-                                        </div>
-                                        <div class="col-md-12 p-4 align-items-center js-fullheight animated">
-                                            <div class="tab-content tab-family-1 mr-auto ml-auto" id="v-pills-tabContent">
-                                                <div class="tab-pane animated bounce slow py-0 show active" id="v-pills-9" role="tabpanel" aria-labelledby="v-pills-9-tab">
-                                                    <div class="row mb-5 mt-3">
-                                                        <div class="col-xl-9 mb-4 mr-auto ml-auto">
-                                                            <div class="ui form col-12">
-                                                                <div class="inline field">
-                                                                    <label class="h6 font-weight-bold" style="font-size: 14pt; margin-bottom:20px;">Grandma M Diseases</label>
-                                                                    <select name="grnadmaM[]" multiple="" class="label ui large selection fluid dropdown">
-                                                                        <option value="">Choose</option>
-                                                                        <option value="high-Blood-Pressure">High Blood Pressure</option>
-                                                                        <option value="diabetes">Diabetes</option>
-                                                                        <option value="cancer">Cancer (Past or Present)</option>
-                                                                    </select>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                        <div class="col-xl-9 col-md-4 mb-3 mr-auto ml-auto">
-                                                            <div class="ui input col-12">
-                                                                <input type="text" placeholder="Other Diseases" name="other_grnadmaM">
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div class="tab-pane animated bounce slow py-0 show" id="v-pills-10" role="tabpanel" aria-labelledby="v-pills-10-tab">
-                                                    <div class="row mb-5 mt-3">
-                                                        <div class="col-xl-9 mb-4 mr-auto ml-auto">
-                                                            <div class="ui form col-12">
-                                                                <div class="inline field">
-                                                                    <label class="h6 font-weight-bold" style="font-size: 14pt; margin-bottom:20px;">Grandma F Diseases</label>
-                                                                    <select name="grnadmaF[]" multiple="" class="label ui large selection fluid dropdown">
-                                                                        <option value="">Choose</option>
-                                                                        <option value="high-Blood-Pressure">High Blood Pressure</option>
-                                                                        <option value="diabetes">Diabetes</option>
-                                                                        <option value="cancer">Cancer (Past or Present)</option>
-                                                                    </select>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                        <div class="col-xl-9 col-md-4 mb-3 mr-auto ml-auto">
-                                                            <div class="ui input col-12">
-                                                                <input type="text" placeholder="Other Diseases" name="other_grandmaF">
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div class="tab-pane animated bounce slow py-0 show" id="v-pills-11" role="tabpanel" aria-labelledby="v-pills-11-tab">
-                                                    <div class="row mb-5 mt-3">
-                                                        <div class="col-xl-9 mb-4 mr-auto ml-auto">
-                                                            <div class="ui form col-12">
-                                                                <div class="inline field">
-                                                                    <label class="h2 font-weight-700" style="font-size: 12pt; margin-bottom: 8px;">Granadpa M Diseases</label>
-                                                                    <select name="grnadpaM[]" multiple="" class="label ui large selection fluid dropdown">
-                                                                        <option value="">Choose</option>
-                                                                        <option value="high-Blood-Pressure">High Blood Pressure</option>
-                                                                        <option value="diabetes">Diabetes</option>
-                                                                        <option value="cancer">Cancer (Past or Present)</option>
-                                                                    </select>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                        <div class="col-xl-9 col-md-4 mb-3 mr-auto ml-auto">
-                                                            <div class="ui input col-12">
-                                                                <input type="text" placeholder="Other Diseases" name="other_grnadpaM">
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div class="tab-pane animated bounce slow py-0 show" id="v-pills-12" role="tabpanel" aria-labelledby="v-pills-12-tab">
-                                                    <div class="row mb-5 mt-3">
-                                                        <div class="col-xl-9 mb-4 mr-auto ml-auto">
-                                                            <div class="ui form col-12">
-                                                                <div class="inline field">
-                                                                    <label class="h6 font-weight-bold" style="font-size: 14pt; margin-bottom:20px;">Granadpa F Diseases</label>
-                                                                    <select name="grnadpaF[]" multiple="" class="label ui large selection fluid dropdown">
-                                                                        <option value="">Choose</option>
-                                                                        <option value="high-Blood-Pressure">High Blood Pressure</option>
-                                                                        <option value="diabetes">Diabetes</option>
-                                                                        <option value="cancer">Cancer (Past or Present)</option>
-                                                                    </select>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                        <div class="col-xl-9 col-md-4 mb-3 mr-auto ml-auto">
-                                                            <div class="ui input col-12">
-                                                                <input type="text" placeholder="Other Diseases" name="other_grnadpaF">
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!-- female -->
-                                @if(auth()->guard('patien')->user()->gender == 'female' && auth()->guard('patien')->user()->state == 'single')
-                                <h4 class="text-pink ml-5 mt-3 mb-4 font-weight-bold">Female Single</h4>
-                                <div class="row tab-Female col-10 mr-auto ml-auto mb-3 mt-3">
-                                    <div class="p-3 col-xl-9 mb-2 mt-3 mr-auto ml-auto">
-                                        <label class="mr-7 col-6 title-label">Have you a Normal Period Cycle </label>
-                                        <input class="ui radio checkbox col-1" type="radio" name="single_Period_Cycle" value="yes" /><label class="font-weight-600">Yes</label> &nbsp;&nbsp;&nbsp;&nbsp;
-                                        <input class="ui radio checkbox col-1 ml-4" type="radio" name="single_Period_Cycle" value="no" /> <label class="font-weight-600">No</label>
-                                    </div>
-                                </div>
-                                @endif
-                                @if(auth()->guard('patien')->user()->gender == 'female' && auth()->guard('patien')->user()->state == 'married' || auth()->guard('patien')->user()->state == 'divorce')
-                                <div class="col-12 ml-auto mr-auto">
-                                <div class="nav flex-row nav-pills row offset-xl-1 col-12" id="v-pills-tab" role="tablist" aria-orientation="horizontal">
-                                    <a class="nav-link col-md-4 p-2 mr-1 active" id="v-pills-01-tab" data-toggle="pill" href="#v-pills-01" role="tab" aria-controls="v-pills-01" aria-selected="true">
-                                        <div class="text-center">
-                                            <div><img src="../imgs/wife.png" width="120"></div>
-                                            <div>
-                                                <h4 class="text-pills mt-3">Wife</h4>
-                                            </div>
-                                        </div>
-                                    </a>
-                                    <a class="nav-link col-md-4 p-2 mr-1" id="v-pills-02-tab" data-toggle="pill" href="#v-pills-02" role="tab" aria-controls="v-pills-02" aria-selected="true">
-                                        <div class="text-center">
-                                            <div><img src="../imgs/mother.png" width="120"></div>
-                                            <div>
-                                                <h4 class="text-pills mt-3">Mother</h4>
-                                            </div>
-                                        </div>
-                                    </a>
-                                </div>
-                                <div class="col-md-12 p-4 align-items-center js-fullheight animated">
-                                    <div class="tab-content mr-auto ml-auto" id="v-pills-tabContent">
-                                        <div class="tab-pane animated bounce slow py-0 show active" id="v-pills-01" role="tabpanel" aria-labelledby="v-pills-01-tab">
-                                            <h5 class="text-pink ml-5 mt-3">Female Wife</h5>
-                                            <div class="row mb-3 mt-3">
-
-                                                <div class="col-xl-9 mb-3 mr-auto ml-auto">
+                                        <div class="col-12">
+                                            <!-- female -->
+                                            @if(auth()->guard('patien')->user()->gender == 'female' && auth()->guard('patien')->user()->state == 'single')
+                                            <h4 class="text-pink ml-5 mt-3 mb-4 font-weight-bold">Female Single</h4>
+                                            <div class="row tab-Female col-10 mr-auto ml-auto mb-3 mt-3">
+                                                <div class="p-3 col-xl-9 mb-2 mt-3 mr-auto ml-auto">
                                                     <label class="mr-7 col-6 title-label">Have you a Normal Period Cycle </label>
-                                                    <input class="ui radio checkbox col-1" type="radio" name="wife_Period_Cycle" value="yes" /><label class="font-weight-600">Yes</label> &nbsp;&nbsp;&nbsp;&nbsp;
-                                                    <input class="ui radio checkbox col-1 ml-4" type="radio" name="wife_Period_Cycle" value="no" /> <label class="font-weight-600">No</label>
-                                                </div>
-                                                <div class="col-xl-9 col-md-4 mb-3 mr-auto ml-auto">
-                                                    <label class="mr-7 col-6 title-label">Abotion</label>
-                                                    <input class="ui radio checkbox col-1" type="radio" name="wife_Abotion" value="yes" /><label class="font-weight-600">Yes</label> &nbsp;&nbsp;&nbsp;&nbsp;
-                                                    <input class="ui radio checkbox col-1 ml-4" type="radio" name="wife_Abotion" value="no" /><label class="font-weight-600">No</label>
-                                                </div>
-                                                <div class="col-xl-9 col-md-4 mb-3 mr-auto ml-auto ">
-                                                    <label class="title-label col-6">Contraceptive</label>
-                                                    <select name="wife_Contraceptive" class="ui selection dropdown col-4">
-                                                        <option>Severity</option>
-                                                        <option value="Pill">Pill</option>
-                                                        <option value="Implant">Implant</option>
-                                                        <option value="Intrauterine">Intrauterine Device</option>
-                                                        <option value="Injection">Injection</option>
-                                                    </select>
+                                                    <input class="ui radio checkbox col-1" type="radio" name="single_Period_Cycle" value="yes" /><label class="font-weight-600">Yes</label> &nbsp;&nbsp;&nbsp;&nbsp;
+                                                    <input class="ui radio checkbox col-1 ml-4" type="radio" name="single_Period_Cycle" value="no" /> <label class="font-weight-600">No</label>
                                                 </div>
                                             </div>
+                                            @endif
+                                            @if(auth()->guard('patien')->user()->gender == 'female' && auth()->guard('patien')->user()->state == 'married' || auth()->guard('patien')->user()->state == 'divorce')
+                                            <div class="col-12 ml-auto mr-auto">
+                                            <div class="nav flex-row nav-pills row offset-xl-1 col-12" id="v-pills-tab" role="tablist" aria-orientation="horizontal">
+                                                <a class="nav-link col-md-4 p-2 mr-1 active" id="v-pills-01-tab" data-toggle="pill" href="#v-pills-01" role="tab" aria-controls="v-pills-01" aria-selected="true">
+                                                    <div class="text-center">
+                                                        <div><img src="../imgs/wife.png" width="120"></div>
+                                                        <div>
+                                                            <h4 class="text-pills mt-3">Wife</h4>
+                                                        </div>
+                                                    </div>
+                                                </a>
+                                                <a class="nav-link col-md-4 p-2 mr-1" id="v-pills-02-tab" data-toggle="pill" href="#v-pills-02" role="tab" aria-controls="v-pills-02" aria-selected="true">
+                                                    <div class="text-center">
+                                                        <div><img src="../imgs/mother.png" width="120"></div>
+                                                        <div>
+                                                            <h4 class="text-pills mt-3">Mother</h4>
+                                                        </div>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                            <div class="col-md-12 p-4 align-items-center js-fullheight animated">
+                                                <div class="tab-content mr-auto ml-auto" id="v-pills-tabContent">
+                                                    <div class="tab-pane animated bounce slow py-0 show active" id="v-pills-01" role="tabpanel" aria-labelledby="v-pills-01-tab">
+                                                        <h5 class="text-pink ml-5 mt-3">Female Wife</h5>
+                                                        <div class="row mb-3 mt-3">
+                                                            <div class="col-xl-9 mb-3 mr-auto ml-auto">
+                                                                <label class="mr-7 col-6 title-label">Have you a Normal Period Cycle </label>
+                                                                <input class="ui radio checkbox col-1" type="radio" name="wife_Period_Cycle" value="yes" /><label class="font-weight-600">Yes</label> &nbsp;&nbsp;&nbsp;&nbsp;
+                                                                <input class="ui radio checkbox col-1 ml-4" type="radio" name="wife_Period_Cycle" value="no" /> <label class="font-weight-600">No</label>
+                                                            </div>
+                                                            <div class="col-xl-9 col-md-4 mb-3 mr-auto ml-auto">
+                                                                <label class="mr-7 col-6 title-label">Abotion</label>
+                                                                <input class="ui radio checkbox col-1" type="radio" name="wife_Abotion" value="yes" /><label class="font-weight-600">Yes</label> &nbsp;&nbsp;&nbsp;&nbsp;
+                                                                <input class="ui radio checkbox col-1 ml-4" type="radio" name="wife_Abotion" value="no" /><label class="font-weight-600">No</label>
+                                                            </div>
+                                                            <div class="col-xl-9 col-md-4 mb-3 mr-auto ml-auto ">
+                                                                <label class="title-label col-6">Contraceptive</label>
+                                                                <select name="wife_Contraceptive" class="ui selection dropdown col-4">
+                                                                    <option>Severity</option>
+                                                                    <option value="Pill">Pill</option>
+                                                                    <option value="Implant">Implant</option>
+                                                                    <option value="Intrauterine">Intrauterine Device</option>
+                                                                    <option value="Injection">Injection</option>
+                                                                </select>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <!-- female mother -->
+                                                    <div class="tab-pane animated bounce slow py-0 show" id="v-pills-02" role="tabpanel" aria-labelledby="v-pills-02-tab">
+                                                        <h5 class="text-pink ml-5 mt-3">Female Mother</h5>
+                                                        <div class="row mb-3 mt-3">
+                                                            <div class="col-xl-9 mb-3 mr-auto ml-auto">
+                                                                <label class="mr-7 col-6 title-label">Have you a Normal Period Cycle </label>
+                                                                <input class="ui radio checkbox col-1" type="radio" name="mother_Period_Cycle" value="yes" /><label class="font-weight-600">Yes</label> &nbsp;&nbsp;&nbsp;&nbsp;
+                                                                <input class="ui radio checkbox col-1 ml-4" type="radio" name="mother_Period_Cycle" value="no" /> <label class="font-weight-600">No</label>
+                                                            </div>
+                                                            <div class="col-xl-9 col-md-4 mb-3 mr-auto ml-auto">
+                                                                <label class="mr-7 col-6 title-label">Pregnency</label>
+                                                                <input class="ui radio checkbox col-1" type="radio" name="mother_pregnency" value="yes" /><label class="font-weight-600">Yes</label> &nbsp;&nbsp;&nbsp;&nbsp;
+                                                                <input class="ui radio checkbox col-1 ml-4" type="radio" name="mother_pregnency" value="no" /><label class="font-weight-600">No</label>
+                                                            </div>
+                                                            <div class="col-xl-9 col-md-4 mb-3 mr-auto ml-auto">
+                                                                <label class="mr-7 col-6 title-label">Abotion</label>
+                                                                <input class="ui radio checkbox col-1" type="radio" name="mother_abotion" value="yes" /><label class="font-weight-600">Yes</label> &nbsp;&nbsp;&nbsp;&nbsp;
+                                                                <input class="ui radio checkbox col-1 ml-4" type="radio" name="mother_abotion" value="no" /><label class="font-weight-600">No</label>
+                                                            </div>
+                                                            <div class="col-xl-9 col-md-4 mb-3 mr-auto ml-auto">
+                                                                <label class="mr-7 col-6 title-label">Types of Deliveries </label>
+                                                                <input class="ui radio checkbox col-1" type="radio" name="mother_deliveries" value="normal" /><label class="font-weight-600">Normal</label>
+                                                                <input class="ui radio checkbox col-1 ml-3" type="radio" name="mother_deliveries" value="c.s" /><label class="font-weight-600">C.S</label>
+                                                            </div>
+                                                            <div class="col-xl-9 col-md-4 mb-3 mr-auto ml-auto">
+                                                                <label class="mr-7 col-6 title-label">Complicetion in Deliveries </label>
+                                                                <input class="ui radio checkbox col-1" type="radio" name="mother_complicetion" value="yes" /><label class="font-weight-600">Yes</label> &nbsp;&nbsp;&nbsp;&nbsp;
+                                                                <input class="ui radio checkbox col-1 ml-4" type="radio" name="mother_complicetion" value="no" /><label class="font-weight-600">No</label>
+                                                            </div>
+                                                            <div class="col-xl-9 col-md-4 mb-3 mr-auto ml-auto ">
+                                                                <label class="title-label col-6">Contraceptive</label>
+                                                                <select name="mother_Contraceptive" class="ui selection dropdown col-4">
+                                                                    <option>Severity</option>
+                                                                    <option value="Pill">Pill</option>
+                                                                    <option value="Implant">Implant</option>
+                                                                    <option value="Intrauterine">Intrauterine Device</option>
+                                                                    <option value="Injection">Injection</option>
+                                                                </select>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <!-- female -->
+                                            @endif
                                         </div>
-                                        <!-- female mother -->
-                                        <div class="tab-pane animated bounce slow py-0 show" id="v-pills-02" role="tabpanel" aria-labelledby="v-pills-02-tab">
-                                            <h5 class="text-pink ml-5 mt-3">Female Mother</h5>
-                                            <div class="row mb-3 mt-3">
-                                                <div class="col-xl-9 mb-3 mr-auto ml-auto">
-                                                    <label class="mr-7 col-6 title-label">Have you a Normal Period Cycle </label>
-                                                    <input class="ui radio checkbox col-1" type="radio" name="mother_Period_Cycle" value="yes" /><label class="font-weight-600">Yes</label> &nbsp;&nbsp;&nbsp;&nbsp;
-                                                    <input class="ui radio checkbox col-1 ml-4" type="radio" name="mother_Period_Cycle" value="no" /> <label class="font-weight-600">No</label>
-                                                </div>
-                                                <div class="col-xl-9 col-md-4 mb-3 mr-auto ml-auto">
-                                                    <label class="mr-7 col-6 title-label">Pregnency</label>
-                                                    <input class="ui radio checkbox col-1" type="radio" name="mother_pregnency" value="yes" /><label class="font-weight-600">Yes</label> &nbsp;&nbsp;&nbsp;&nbsp;
-                                                    <input class="ui radio checkbox col-1 ml-4" type="radio" name="mother_pregnency" value="no" /><label class="font-weight-600">No</label>
-                                                </div>
-                                                <div class="col-xl-9 col-md-4 mb-3 mr-auto ml-auto">
-                                                    <label class="mr-7 col-6 title-label">Abotion</label>
-                                                    <input class="ui radio checkbox col-1" type="radio" name="mother_abotion" value="yes" /><label class="font-weight-600">Yes</label> &nbsp;&nbsp;&nbsp;&nbsp;
-                                                    <input class="ui radio checkbox col-1 ml-4" type="radio" name="mother_abotion" value="no" /><label class="font-weight-600">No</label>
-                                                </div>
-                                                <div class="col-xl-9 col-md-4 mb-3 mr-auto ml-auto">
-                                                    <label class="mr-7 col-6 title-label">Types of Deliveries </label>
-                                                    <input class="ui radio checkbox col-1" type="radio" name="mother_deliveries" value="normal" /><label class="font-weight-600">Normal</label>
-                                                    <input class="ui radio checkbox col-1 ml-3" type="radio" name="mother_deliveries" value="c.s" /><label class="font-weight-600">C.S</label>
-                                                </div>
-                                                <div class="col-xl-9 col-md-4 mb-3 mr-auto ml-auto">
-                                                    <label class="mr-7 col-6 title-label">Complicetion in Deliveries </label>
-                                                    <input class="ui radio checkbox col-1" type="radio" name="mother_complicetion" value="yes" /><label class="font-weight-600">Yes</label> &nbsp;&nbsp;&nbsp;&nbsp;
-                                                    <input class="ui radio checkbox col-1 ml-4" type="radio" name="mother_complicetion" value="no" /><label class="font-weight-600">No</label>
-                                                </div>
-                                                <div class="col-xl-9 col-md-4 mb-3 mr-auto ml-auto ">
-                                                    <label class="title-label col-6">Contraceptive</label>
-                                                    <select name="mother_Contraceptive" class="ui selection dropdown col-4">
-                                                        <option>Severity</option>
-                                                        <option value="Pill">Pill</option>
-                                                        <option value="Implant">Implant</option>
-                                                        <option value="Intrauterine">Intrauterine Device</option>
-                                                        <option value="Injection">Injection</option>
-                                                    </select>
-                                                </div>
-                                            </div>
+                                        <div class="col-12 text-center mb-3 mt-5">
+                                            <input type="submit" value="submit" class="col-8 btn btn-success">
                                         </div>
                                     </div>
-                                </div>
-                            </div>
-                            <!-- female -->
-                            @endif
-                            <div class="text-center mb-3 mt-5">
-                                <input type="submit" value="submit" class="col-8 btn btn-success">
-                            </div>
                             </form>
-                            </div>
-</div>
-</div>
-</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
 </div>
 <!-- footer -->
 @include('backEnd.layoutes.footer')
 <!-- footer -->
-</div>
-</div>
-</div>
-
 <!-- main content -->
 
 
